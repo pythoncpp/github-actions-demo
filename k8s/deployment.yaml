@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: container1
-          image: amitksunbeam/github-action-demo:v1
+          image: amitksunbeam/github-action-demo:19510075055
           ports:
             - containerPort: 80
