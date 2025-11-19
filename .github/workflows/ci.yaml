@@ -38,7 +38,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.run_id }}
+          tags: ${{ env.DOCKER_IMAGE }}:${{ github.run_id }}
           platforms: linux/arm64,linux/amd64
 
   update-yaml:
